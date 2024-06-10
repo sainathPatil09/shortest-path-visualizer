@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoterst-Path Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Shortest path visualizer</h1>
+        <img class="i-btn" src="i.svg" alt="">
+    </div>
+
+    <div class="content">
+        <div class="play-ground">
+            <h2>
+                Play Ground
+            </h2>
+
+            <div class="btns">
+                <button id="addNode">Add Node</button>
+                <button id="addEdge">Add Edge</button>
+                <button id="res">result</button>
+            </div>
+
+
+            <div id="container">
+                <canvas id="canvas" width="600" height="490"></canvas>
+            </div>
+
+
+        </div>
+        <div class="result">
+            <h2>Result</h2>
+
+            <div class="res-container">
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="details">
+        <img class="close invert" src="close.svg" alt="">
+
+        <div class="details-head">
+            <h2>
+                Details
+            </h2>
+            <div class="text">
+                <div>
+                    Algorithm used
+                </div>
+
+                <div class="discription">
+                    <ul>
+                        <li><b>Dijkstra's Algorithm</b></li>
+                        <li>
+                            <b> Dijkstra's algorithm </b> is a classic algorithm for finding the shortest paths between
+                            nodes in a graph, which may represent, for example, road networks. The algorithm is
+                            applicable
+                            for graphs with non-negative edge weights. The primary goal of Dijkstra's algorithm is to
+                            determine the shortest path from a starting node (source) to all other nodes in the graph
+                            and also can find path from source node to nth node
+                        </li>
+                        <li>
+                            <b>Time Complexity</b> O(E * log(V)) + O(V)
+                        </li>
+                        <li>
+                            <b>Space Complexity</b> O(V)
+                        </li>
+                        <li>
+                            where E is no of Edges and V is no of Vertex
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"> </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="content">
+
+        <div class="text">
+            <h2>
+                Play Ground
+            </h2>
+
+            <div class="btns">
+                <button id="addNode">Add Node</button>
+                <button id="addEdge">Add Edge</button>
+                <button id="res">result</button>
+            </div>
+
+            <div class="container" style="border: 2px solid red; height: 450px; width: 600px;">
+
+            </div>  
+        </div>
+
+            <div class="result">
+                <h2>Result</h2>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero non, dolores odit molestiae eos tempora, ut
+                et quos in tempore odio nesciunt modi est magnam deleniti dolorum corrupti aut. Corporis natus aut libero
+                molestias necessitatibus laborum adipisci cumque autem repudiandae, nobis debitis cum, ipsum excepturi?
+                Quasi, assumenda. Adipisci molestiae animi dignissimos sit. Nihil explicabo aspernatur nam mollitia non
+                fugit! Repellendus, culpa doloribus? Impedit ratione in autem aperiam vel, quae ipsam nihil sed temporibus
+                iste ad, dolor debitis totam aspernatur officiis hic magnam exercitationem odio. Quibusdam quasi rem veniam
+                temporibus animi odio, natus molestiae culpa soluta ipsa totam rerum, architecto quidem!
+            </div>
+
+    </div> -->

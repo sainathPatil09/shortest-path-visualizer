@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Baloo 2", sans-serif;;
+}
+.header {
+    height: 15vh;
+    background-color: rgb(61, 62, 62);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    right: 40px;
+    bottom: 45px;
+    width: 35px;
+    filter: invert(1);
+}
+
+
+.btns button {
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 15px;
+    cursor: pointer;
+    background-color: #ff8e00;;
+}
+
+.btns button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px 2px #f69325;
+}
+
+.i-btn{
+    cursor: pointer;
+}
+
+.content {
+    width: 90vw;
+    margin: auto;
+    /* border: 2px solid red; */
+    height: 75vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.play-ground {
+    width: 600px;
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.result {
+    /* border: 2px solid red; */
+    width: 400px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.details{
+    width: 70vw;
+    border: 2px solid green;
+    height: 90vh;
+    position: absolute;
+    top: 0;
+    right: -75%;
+    margin: 2px;
+    background-color: rgb(48, 46, 46);
+    transition: all 0.5s ease-in-out;
+    z-index: 0;
+    display: none;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.close{
+    width: 35px;
+    margin: 5px 8px;
+}
+
+
+
+#container {
+    position: relative;
+    width: 600px;
+    height: 490px;
+    border: 2px solid black;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.node {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.res-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+/*  slider style start   */
+.details-head h2 {
+    text-align: center;
+}
+
+.text ul li {
+    font-size: 20px;
+}
+.text> :nth-child(1){
+    font-weight: bold;
+    font-size: 23px;
+    padding: 8px;
+}
+.discription{
+    /* border: 2px solid red; */
+    padding: 5px 50px;
+
+}
+
+
+/*  slider style end */
