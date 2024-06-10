@@ -237,3 +237,10 @@ document.querySelector(".i-btn").addEventListener("click", () => {
 document.querySelector(".close").addEventListener("click", () => {
     document.querySelector(".details").style.right = "-75%"
 })
+
+
+// reload event
+
+document.getElementById("clear").addEventListener("click",()=>{
+    window.location.reload();
+})
